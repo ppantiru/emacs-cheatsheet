@@ -14,6 +14,7 @@
 + ~/.emacs.d/bin/doom install
       /doom install/ will set up your DOOMDIR at ~/.doom.d (if it doesn’t already exist) and will work you through the first-time setup of Doom Emacs. Carefully follow any instructions it puts out. If this is your first time, you should run /doom doctor/. This will diagnose common issues with your system or config.
 * Utilities found in bin/doom
+*
 ** doom sync:
 This synchronizes your config with Doom Emacs. It ensures that needed packages are installed, orphaned packages are removed and necessary metadata correctly generated. Run this whenever you modify your doom! block or packages.el file. You’ll need doom sync -u if you override the recipe of package installed by another module.
 ** doom upgrade:
